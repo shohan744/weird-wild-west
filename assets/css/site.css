@@ -1,6 +1,6 @@
 :root{
   --ink:#0b0b0b;
-  --panel: transparent; /* kill the white wash */
+  --panel: transparent;
 }
 
 *{ box-sizing:border-box; }
@@ -9,7 +9,6 @@ html, body{
   margin:0;
   padding:0;
 
-  /* Global parchment background */
   background-image: url("../img/parchment.png");
   background-repeat: repeat;
   background-size: auto;
@@ -22,7 +21,7 @@ html, body{
 a{ color:inherit; text-decoration:none; }
 a:hover{ text-decoration:underline; }
 
-/* Top bar */
+/* ── Top bar ── */
 .topbar{
   position:sticky;
   top:0;
@@ -51,7 +50,7 @@ a:hover{ text-decoration:underline; }
   font-size:16px;
 }
 
-/* Main page wrapper */
+/* ── Main page wrapper ── */
 .page{
   max-width: 980px;
   margin: 18px auto 60px;
@@ -59,16 +58,15 @@ a:hover{ text-decoration:underline; }
   background: transparent;
 }
 
-/* Big framed panel */
+/* ── Big framed panel ── */
 .frame{
   border: 8px solid var(--ink);
   background: transparent;
-  /* tightened top padding to reduce dead space under header */
   padding: 10px 18px 14px;
   margin: 18px 0;
 }
 
-/* Old title style (optional / non-home pages) */
+/* ── Old title style (non-home pages) ── */
 .title-scroll{
   border: 6px solid var(--ink);
   background: rgba(255,255,255,.25);
@@ -80,9 +78,11 @@ a:hover{ text-decoration:underline; }
   text-transform: lowercase;
 }
 
+/* ── Hero banner (used on non-home pages with .hero-banner-wrap) ── */
 .hero-banner-wrap{
   text-align:center;
   margin: 0 0 6px;
+  overflow: visible;
 }
 
 .hero-banner{
@@ -90,9 +90,25 @@ a:hover{ text-decoration:underline; }
   width: min(900px, 100%);
   height: auto;
   margin: 0 auto;
+  visibility: visible;
 }
 
-/* Embossed subhead */
+/* ── Hero banner crop (used on homepage) ── */
+.hero-banner-crop{
+  width: min(900px, 100%);
+  margin: 0 auto 0;   /* no bottom margin — grid sits directly below */
+  height: 150px;      /* adjust to taste to control how much of the image shows */
+  overflow: hidden;
+}
+
+.hero-banner-crop .hero-banner{
+  width: 100%;
+  height: auto;
+  display:block;
+  transform: translateY(-10px); /* adjust to reposition the visible portion */
+}
+
+/* ── Embossed subhead ── */
 .subhead{
   display:inline-block;
   margin: 10px 0 14px;
@@ -105,26 +121,23 @@ a:hover{ text-decoration:underline; }
   letter-spacing: .5px;
 }
 
-/* Layout grids */
+/* ── Layout grids ── */
 .home-grid{
   display:grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px;
-
-  /* tightened to pull subheaders up toward the main header */
-  margin-top: 10px;
+  margin-top: 6px;  /* tight gap below the header crop */
 }
 
-/* Slightly more space between rows (buttons row -> circles row) */
 .home-grid + .home-grid{
-  margin-top: 14px;
+  margin-top: 14px; /* slightly more space between banners row and circles row */
 }
 
 @media (max-width: 720px){
   .home-grid{ grid-template-columns: 1fr; }
 }
 
-/* Image-link tiles for leather “Story so far / Glossary” buttons */
+/* ── Image-link tiles ── */
 .home-tile{
   display:block;
   text-decoration:none;
@@ -147,7 +160,7 @@ a:hover{ text-decoration:underline; }
   filter: drop-shadow(0 3px 0 rgba(0,0,0,.18));
 }
 
-/* Circular art holders */
+/* ── Circular art holders ── */
 .circle{
   border: none;
   border-radius: 999px;
@@ -164,7 +177,7 @@ a:hover{ text-decoration:underline; }
   display:block;
 }
 
-/* Expand/collapse panels */
+/* ── Expand/collapse panels ── */
 details.panel{
   border: 6px solid var(--ink);
   background: rgba(255,255,255,.20);
@@ -195,7 +208,7 @@ details.panel > summary::-webkit-details-marker{ display:none; }
   margin-top:8px;
 }
 
-/* Footer */
+/* ── Footer ── */
 .footer{
   border-top:6px solid var(--ink);
   background: rgba(255,255,255,.35);
@@ -206,48 +219,4 @@ details.panel > summary::-webkit-details-marker{ display:none; }
   margin: 0 auto;
   padding: 14px;
   opacity:.8;
-}
-
-.hero-banner-wrap{ overflow: visible !important; }
-.hero-banner{ visibility: visible !important; }
-
-/* --- Tighten homepage header -> subheader spacing --- */
-body.home .frame{
-  padding-top: 6px;      /* was bigger */
-  padding-bottom: 14px;
-}
-
-body.home .hero-banner-wrap{
-  margin: 0;             /* remove extra space around banner */
-}
-
-body.home .hero-banner{
-  margin: 0 auto;        /* no bottom margin */
-}
-
-body.home .home-grid{
-  margin-top: 6px;       /* bring the subheader banners up */
-}
-
-/* keep the gap between the two grid rows (banners -> circles) */
-body.home .home-grid + .home-grid{
-  margin-top: 14px;
-}
-/* ===== Homepage: pull subheaders + icons upward ===== */
-body.home .frame{
-  padding-top: 10px;     /* keep some breathing room */
-}
-
-/* Remove any default spacing under the header */
-body.home .hero-banner-wrap{ margin: 0; }
-body.home .hero-banner{ margin: 0 auto; }
-
-/* Pull the FIRST home-grid (the two subheader banners) upward */
-body.home .hero-banner-wrap + .home-grid{
-  margin-top: -80px;     /* <-- tweak THIS number */
-}
-
-/* Keep the space between subheader banners and the circles */
-body.home .home-grid + .home-grid{
-  margin-top: 12px;
 }
