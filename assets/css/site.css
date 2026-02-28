@@ -200,3 +200,23 @@ details.panel > summary::-webkit-details-marker{ display:none; }
   padding: 14px;
   opacity:.8;
 }
+
+/* Remove excessive vertical space between header and subheaders */
+
+.hero-banner-wrap {
+  margin-bottom: 6px;   /* was likely 16px+ */
+}
+
+.hero-banner {
+  margin-bottom: 4px;   /* reduce banner bottom space */
+}
+
+.home-grid {
+  margin-top: 6px;      /* pull tiles upward */
+}
+
+/* If the gap still persists, your frame padding is contributing */
+.frame {
+  padding-top: 10px;    /* was 18px */
+  padding-bottom: 14px;
+}
