@@ -1,6 +1,6 @@
 :root{
   --ink:#0b0b0b;
-  --panel: transparent; /* IMPORTANT: kill the white wash */
+  --panel: transparent; /* kill the white wash */
 }
 
 *{ box-sizing:border-box; }
@@ -14,6 +14,7 @@ html, body{
   background-repeat: repeat;
   background-size: auto;
   background-attachment: fixed;
+
   color: var(--ink);
   font-family: Georgia, "Times New Roman", serif;
 }
@@ -32,7 +33,7 @@ a:hover{ text-decoration:underline; }
   justify-content:space-between;
   padding:10px 14px;
   border-bottom:6px solid var(--ink);
-  background: rgba(255,255,255,.45); /* lighter, so parchment shows */
+  background: rgba(255,255,255,.45);
   backdrop-filter: blur(6px);
 }
 
@@ -55,23 +56,22 @@ a:hover{ text-decoration:underline; }
   max-width: 980px;
   margin: 18px auto 60px;
   padding: 0 14px;
-
-  /* IMPORTANT: don't paint a white layer */
   background: transparent;
 }
 
-/* Your big framed panel */
+/* Big framed panel */
 .frame{
   border: 8px solid var(--ink);
-  background: transparent; /* IMPORTANT: kill the white field */
-  padding: 18px;
+  background: transparent;
+  /* tightened top padding to reduce dead space under header */
+  padding: 10px 18px 14px;
   margin: 18px 0;
 }
 
-/* Old title style (you can keep it for non-home pages) */
+/* Old title style (optional / non-home pages) */
 .title-scroll{
   border: 6px solid var(--ink);
-  background: rgba(255,255,255,.25); /* subtle, optional */
+  background: rgba(255,255,255,.25);
   padding: 12px 16px;
   text-align:center;
   font-size: clamp(40px, 6vw, 64px);
@@ -81,15 +81,33 @@ a:hover{ text-decoration:underline; }
 }
 
 /* Banner image for homepage header */
+.hero-banner-wrap{
+  text-align:center;
+  margin-bottom: 6px; /* tightened */
+}
+
 .hero-banner{
   display:block;
   width: min(900px, 100%);
-  margin: 0 auto 16px;
   height: auto;
+  margin: 0 auto; /* no extra bottom margin */
 }
 
-.hero-banner-wrap{
-  text-align:center;
+/* OPTIONAL: use this wrapper only if you choose to crop the header image in HTML
+   (i.e., <div class="hero-banner-crop"><img class="hero-banner" ...></div>)
+*/
+.hero-banner-crop{
+  width: min(900px, 100%);
+  margin: 0 auto 6px;
+  height: 150px;          /* tweak if you use cropping */
+  overflow: hidden;
+}
+
+.hero-banner-crop .hero-banner{
+  width: 100%;
+  height: auto;
+  display:block;
+  transform: translateY(-10px); /* tweak if you use cropping */
 }
 
 /* Embossed subhead */
@@ -110,14 +128,21 @@ a:hover{ text-decoration:underline; }
   display:grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px;
-  margin-top: 18px;
+
+  /* tightened to pull subheaders up toward the main header */
+  margin-top: 10px;
+}
+
+/* Slightly more space between rows (buttons row -> circles row) */
+.home-grid + .home-grid{
+  margin-top: 14px;
 }
 
 @media (max-width: 720px){
   .home-grid{ grid-template-columns: 1fr; }
 }
 
-/* Image-link tiles for your leather “Story so far / Glossary” buttons */
+/* Image-link tiles for leather “Story so far / Glossary” buttons */
 .home-tile{
   display:block;
   text-decoration:none;
@@ -142,10 +167,10 @@ a:hover{ text-decoration:underline; }
 
 /* Circular art holders */
 .circle{
-  border: none;         /* no awkward black ring */
+  border: none;
   border-radius: 999px;
   aspect-ratio: 1 / 1;
-  overflow: hidden;     /* crop */
+  overflow: hidden;
   padding: 0;
   background: none;
 }
@@ -160,7 +185,7 @@ a:hover{ text-decoration:underline; }
 /* Expand/collapse panels */
 details.panel{
   border: 6px solid var(--ink);
-  background: rgba(255,255,255,.20); /* subtle readability */
+  background: rgba(255,255,255,.20);
   margin: 12px 0;
 }
 
@@ -199,44 +224,4 @@ details.panel > summary::-webkit-details-marker{ display:none; }
   margin: 0 auto;
   padding: 14px;
   opacity:.8;
-}
-
-/* Remove excessive vertical space between header and subheaders */
-
-.hero-banner-wrap {
-  margin-bottom: 6px;   /* was likely 16px+ */
-}
-
-.hero-banner {
-  margin-bottom: 4px;   /* reduce banner bottom space */
-}
-
-.home-grid{
-  margin-top: 10px;
-}
-
-.home-grid + .home-grid{
-  margin-top: 14px; /* keep a bit more space before the circles */
-}
-
-/* If the gap still persists, your frame padding is contributing */
-.frame {
-  padding-top: 10px;    /* was 18px */
-  padding-bottom: 14px;
-}
-
-.hero-banner-crop{
-  width: min(900px, 100%);
-  margin: 0 auto 6px;
-  height: 150px;          /* adjust until it hugs the scroll */
-  overflow: hidden;
-}
-
-.hero-banner-crop .hero-banner{
-  width: 100%;
-  height: auto;
-  display:block;
-
-  /* pulls the image upward inside the crop window */
-  transform: translateY(-10px); /* adjust as needed */
 }
