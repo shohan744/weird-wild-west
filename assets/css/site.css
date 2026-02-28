@@ -1,27 +1,27 @@
 :root{
   --ink:#0b0b0b;
-  --paper:#e7d4ad;
-  --paper2:#dbc291;
-  --panel:#ffffffcc;
+  --panel: transparent; /* IMPORTANT: kill the white wash */
 }
 
 *{ box-sizing:border-box; }
 
-body{
+html, body{
   margin:0;
-  color:var(--ink);
-  font-family: Georgia, "Times New Roman", serif;
+  padding:0;
 
-  /* Illustrated parchment background */
+  /* Global parchment background */
   background-image: url("../img/parchment.png");
   background-repeat: repeat;
-  background-size: 1200px auto; /* tweak: bigger = less tiling */
-  background-attachment: fixed; /* optional: nice “paper stays put” feel */
+  background-size: auto;
+  background-attachment: fixed;
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
 }
 
 a{ color:inherit; text-decoration:none; }
 a:hover{ text-decoration:underline; }
 
+/* Top bar */
 .topbar{
   position:sticky;
   top:0;
@@ -32,7 +32,7 @@ a:hover{ text-decoration:underline; }
   justify-content:space-between;
   padding:10px 14px;
   border-bottom:6px solid var(--ink);
-  background: linear-gradient(180deg, rgba(255,255,255,.85), rgba(255,255,255,.65));
+  background: rgba(255,255,255,.45); /* lighter, so parchment shows */
   backdrop-filter: blur(6px);
 }
 
@@ -50,22 +50,28 @@ a:hover{ text-decoration:underline; }
   font-size:16px;
 }
 
+/* Main page wrapper */
 .page{
   max-width: 980px;
   margin: 18px auto 60px;
   padding: 0 14px;
+
+  /* IMPORTANT: don't paint a white layer */
+  background: transparent;
 }
 
+/* Your big framed panel */
 .frame{
   border: 8px solid var(--ink);
-  background: var(--panel);
+  background: transparent; /* IMPORTANT: kill the white field */
   padding: 18px;
   margin: 18px 0;
 }
 
+/* Old title style (you can keep it for non-home pages) */
 .title-scroll{
   border: 6px solid var(--ink);
-  background: rgba(255,255,255,.8);
+  background: rgba(255,255,255,.25); /* subtle, optional */
   padding: 12px 16px;
   text-align:center;
   font-size: clamp(40px, 6vw, 64px);
@@ -74,6 +80,19 @@ a:hover{ text-decoration:underline; }
   text-transform: lowercase;
 }
 
+/* Banner image for homepage header */
+.hero-banner{
+  display:block;
+  width: min(900px, 100%);
+  margin: 0 auto 16px;
+  height: auto;
+}
+
+.hero-banner-wrap{
+  text-align:center;
+}
+
+/* Embossed subhead */
 .subhead{
   display:inline-block;
   margin: 10px 0 14px;
@@ -86,6 +105,7 @@ a:hover{ text-decoration:underline; }
   letter-spacing: .5px;
 }
 
+/* Layout grids */
 .home-grid{
   display:grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -93,6 +113,11 @@ a:hover{ text-decoration:underline; }
   margin-top: 18px;
 }
 
+@media (max-width: 720px){
+  .home-grid{ grid-template-columns: 1fr; }
+}
+
+/* Image-link tiles for your leather “Story so far / Glossary” buttons */
 .home-tile{
   display:block;
   text-decoration:none;
@@ -102,7 +127,6 @@ a:hover{ text-decoration:underline; }
   width: 100%;
   height: auto;
   display:block;
-  /* optional: makes it feel clickable */
   transition: transform 120ms ease, filter 120ms ease;
 }
 
@@ -116,44 +140,27 @@ a:hover{ text-decoration:underline; }
   filter: drop-shadow(0 3px 0 rgba(0,0,0,.18));
 }
 
-@media (max-width: 720px){
-  .home-grid{ grid-template-columns: 1fr; }
-}
-
-.home-card{
-  display:block;
-  border: 8px solid var(--ink);
-  background: rgba(255,255,255,.75);
-  padding: 18px;
-  font-size: 26px;
-  font-weight: 800;
-  text-transform: lowercase;
-  text-align:center;
-}
-
-.hero-banner{
-  display:block;
-  width: min(900px, 100%);
-  margin: 0 auto 16px;
-  height: auto;
-}
-
-.hero-banner-wrap{
-  text-align:center;
-}
-
+/* Circular art holders */
 .circle{
-  border: none;                /* remove black ring */
+  border: none;         /* no awkward black ring */
   border-radius: 999px;
   aspect-ratio: 1 / 1;
-  overflow: hidden;            /* crop image cleanly */
-  padding: 0;                  /* remove white gap */
-  background: none;            /* remove white fill */
+  overflow: hidden;     /* crop */
+  padding: 0;
+  background: none;
 }
 
+.circle-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display:block;
+}
+
+/* Expand/collapse panels */
 details.panel{
   border: 6px solid var(--ink);
-  background: rgba(255,255,255,.75);
+  background: rgba(255,255,255,.20); /* subtle readability */
   margin: 12px 0;
 }
 
@@ -181,9 +188,10 @@ details.panel > summary::-webkit-details-marker{ display:none; }
   margin-top:8px;
 }
 
+/* Footer */
 .footer{
   border-top:6px solid var(--ink);
-  background: rgba(255,255,255,.6);
+  background: rgba(255,255,255,.35);
 }
 
 .footer-inner{
@@ -191,39 +199,4 @@ details.panel > summary::-webkit-details-marker{ display:none; }
   margin: 0 auto;
   padding: 14px;
   opacity:.8;
-}
-
-.circle-img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display:block;
-}
-
-/* --- HOME: replace the big white field with a desert-sand backdrop --- */
-
-/* applies only to the homepage (Jekyll sets <body class="home"> in our layout) */
-body.home{
-  /* keep your parchment as the page background */
-}
-
-/* this targets the big centered content wrapper */
-body.home .page{
-  /* sand texture behind everything inside the page wrapper */
-  background-image: url("../img/sand-bg.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  /* give it some breathing room so the sand shows around the frame */
-  padding: 38px 22px 60px;
-
-  /* optional: a thin border to echo your ink style */
-  border-left: 4px solid rgba(0,0,0,.75);
-  border-right: 4px solid rgba(0,0,0,.75);
-
-  /* optional: soften the sand edges into the parchment */
-  box-shadow:
-    inset 0 0 90px rgba(255,255,255,.55),
-    0 0 0 0 rgba(0,0,0,0);
 }
