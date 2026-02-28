@@ -93,6 +93,29 @@ a:hover{ text-decoration:underline; }
   margin-top: 18px;
 }
 
+.home-tile{
+  display:block;
+  text-decoration:none;
+}
+
+.home-tile img{
+  width: 100%;
+  height: auto;
+  display:block;
+  /* optional: makes it feel clickable */
+  transition: transform 120ms ease, filter 120ms ease;
+}
+
+.home-tile:hover img{
+  transform: translateY(-2px);
+  filter: drop-shadow(0 6px 0 rgba(0,0,0,.20));
+}
+
+.home-tile:active img{
+  transform: translateY(0px);
+  filter: drop-shadow(0 3px 0 rgba(0,0,0,.18));
+}
+
 @media (max-width: 720px){
   .home-grid{ grid-template-columns: 1fr; }
 }
