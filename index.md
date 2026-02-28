@@ -21,10 +21,14 @@ title: Home
   </a>
 </div>
 
-  <div class="home-grid">
-    <div class="circle">art: quill + leatherbound journal</div>
-    <div class="circle">art: coin pouch + treasure chest</div>
+<div class="home-grid">
+  <div class="circle">
+    <img class="circle-img" src="{{ '/assets/img/journal.png' | relative_url }}" alt="Quill and journal">
   </div>
 
-  <p class="note">Swap the circles for images later — these are placeholders.</p>
+  <div class="circle">
+    <img class="circle-img" src="{{ '/assets/img/treasure.png' | relative_url }}" alt="Treasure sack and trunk">
+  </div>
+</div>
+
 </div>
