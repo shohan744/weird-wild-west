@@ -3,8 +3,13 @@ layout: default
 title: Home
 ---
 
-<div class="frame">
-  <div class="title-scroll">weird wild west</div>
+<div class="frame"><div class="hero-banner-wrap">
+  <img
+    class="hero-banner"
+    src="{{ '/assets/img/main-header.png' | relative_url }}"
+    alt="Weird Wild West"
+  >
+</div>
 
   <div class="home-grid">
     <a class="home-card" href="{{ '/story/' | relative_url }}">story so far</a>
