@@ -78,34 +78,18 @@ a:hover{ text-decoration:underline; }
   text-transform: lowercase;
 }
 
-/* ── Hero banner (used on non-home pages with .hero-banner-wrap) ── */
-.hero-banner-wrap{
-  text-align:center;
-  margin: 0 0 6px;
+/* ── Hero banner ── */
+.hero-banner-crop{
+  width: min(900px, 100%);
+  margin: 0 auto 0;
   overflow: visible;
 }
 
 .hero-banner{
   display:block;
-  width: min(900px, 100%);
-  height: auto;
-  margin: 0 auto;
-  visibility: visible;
-}
-
-/* ── Hero banner crop (used on homepage) ── */
-.hero-banner-crop{
-  width: min(900px, 100%);
-  margin: 0 auto 0;   /* no bottom margin — grid sits directly below */
-  height: 100px;      /* adjust to taste to control how much of the image shows */
-  overflow: hidden;
-}
-
-.hero-banner-crop .hero-banner{
   width: 100%;
   height: auto;
-  display:block;
-  transform: translateY(-10px); /* adjust to reposition the visible portion */
+  margin: 0 auto;
 }
 
 /* ── Embossed subhead ── */
@@ -126,11 +110,11 @@ a:hover{ text-decoration:underline; }
   display:grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px;
-  margin-top: 6px;  /* tight gap below the header crop */
+  margin-top: 8px;
 }
 
 .home-grid + .home-grid{
-  margin-top: 14px; /* slightly more space between banners row and circles row */
+  margin-top: 14px;
 }
 
 @media (max-width: 720px){
