@@ -32,4 +32,3 @@ body_class: home
   </div>
 </div>
 
-</div>
