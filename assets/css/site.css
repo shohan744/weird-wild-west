@@ -216,3 +216,20 @@ details.panel > summary::-webkit-details-marker{ display:none; }
   height: auto;
   display: inline-block;
 }
+
+/* ── Section subheader images ── */
+.section-header {
+  text-align: center;
+  margin: 10px 0 6px;
+}
+
+.section-header img {
+  width: min(480px, 100%);
+  height: auto;
+  display: inline-block;
+}
+
+/* wider variant for page-title headers like ssf.png */
+.section-header.wide img {
+  width: min(720px, 100%);
+}
