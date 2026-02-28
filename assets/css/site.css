@@ -211,12 +211,32 @@ details.panel > summary::-webkit-details-marker{ display:none; }
   margin-bottom: 4px;   /* reduce banner bottom space */
 }
 
-.home-grid {
-  margin-top: 6px;      /* pull tiles upward */
+.home-grid{
+  margin-top: 10px;
+}
+
+.home-grid + .home-grid{
+  margin-top: 14px; /* keep a bit more space before the circles */
 }
 
 /* If the gap still persists, your frame padding is contributing */
 .frame {
   padding-top: 10px;    /* was 18px */
   padding-bottom: 14px;
+}
+
+.hero-banner-crop{
+  width: min(900px, 100%);
+  margin: 0 auto 6px;
+  height: 150px;          /* adjust until it hugs the scroll */
+  overflow: hidden;
+}
+
+.hero-banner-crop .hero-banner{
+  width: 100%;
+  height: auto;
+  display:block;
+
+  /* pulls the image upward inside the crop window */
+  transform: translateY(-10px); /* adjust as needed */
 }
