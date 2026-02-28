@@ -4,7 +4,7 @@ title: Home
 body_class: home
 ---
 
-<div class="hero-banner-crop">
+<div class="hero-banner-wrap">
   <img
     class="hero-banner"
     src="{{ '/assets/img/main-header.png' | relative_url }}"
