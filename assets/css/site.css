@@ -204,3 +204,15 @@ details.panel > summary::-webkit-details-marker{ display:none; }
   padding: 14px;
   opacity:.8;
 }
+
+/* ── Section subheader images ── */
+.section-header {
+  text-align: center;
+  margin: 10px 0 6px;
+}
+
+.section-header img {
+  width: min(480px, 100%);  /* half-ish width — tweak up or down to taste */
+  height: auto;
+  display: inline-block;
+}
