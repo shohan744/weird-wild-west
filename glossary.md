@@ -11,14 +11,14 @@ title: Glossary
   <details class="panel">
     <summary>characters</summary>
     <div class="panel-body">
-      Add your setting blurb here.
+      don't look in here, i haven't written shit yet
     </div>
   </details>
 
   <details class="panel">
     <summary>items</summary>
     <div class="panel-body">
-      Add your mine / temple terminology here.
+      why would you think this would be any different, stupid?
     </div>
   </details>
 </div>
