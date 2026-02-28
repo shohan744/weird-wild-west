@@ -210,3 +210,26 @@ details.panel > summary::-webkit-details-marker{ display:none; }
 
 .hero-banner-wrap{ overflow: visible !important; }
 .hero-banner{ visibility: visible !important; }
+
+/* --- Tighten homepage header -> subheader spacing --- */
+body.home .frame{
+  padding-top: 6px;      /* was bigger */
+  padding-bottom: 14px;
+}
+
+body.home .hero-banner-wrap{
+  margin: 0;             /* remove extra space around banner */
+}
+
+body.home .hero-banner{
+  margin: 0 auto;        /* no bottom margin */
+}
+
+body.home .home-grid{
+  margin-top: 6px;       /* bring the subheader banners up */
+}
+
+/* keep the gap between the two grid rows (banners -> circles) */
+body.home .home-grid + .home-grid{
+  margin-top: 14px;
+}
