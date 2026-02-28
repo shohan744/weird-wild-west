@@ -80,17 +80,16 @@ a:hover{ text-decoration:underline; }
   text-transform: lowercase;
 }
 
-/* Banner image for homepage header */
 .hero-banner-wrap{
   text-align:center;
-  margin-bottom: 6px; /* tightened */
+  margin: 0 0 6px;
 }
 
 .hero-banner{
   display:block;
   width: min(900px, 100%);
   height: auto;
-  margin: 0 auto; /* no extra bottom margin */
+  margin: 0 auto;
 }
 
 /* OPTIONAL: use this wrapper only if you choose to crop the header image in HTML
