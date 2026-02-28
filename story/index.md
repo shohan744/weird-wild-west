@@ -120,8 +120,7 @@ title: Story So Far
     Will the demon—or the Caldera Mining Company—seek revenge?<br>
     What happened to Gia and Finkle?
   </p>
-</div></p>
-    </div>
+</div>
   </details>
 
 </div>
