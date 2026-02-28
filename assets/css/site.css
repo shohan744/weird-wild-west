@@ -92,23 +92,6 @@ a:hover{ text-decoration:underline; }
   margin: 0 auto;
 }
 
-/* OPTIONAL: use this wrapper only if you choose to crop the header image in HTML
-   (i.e., <div class="hero-banner-crop"><img class="hero-banner" ...></div>)
-*/
-.hero-banner-crop{
-  width: min(900px, 100%);
-  margin: 0 auto 6px;
-  height: 150px;          /* tweak if you use cropping */
-  overflow: hidden;
-}
-
-.hero-banner-crop .hero-banner{
-  width: 100%;
-  height: auto;
-  display:block;
-  transform: translateY(-10px); /* tweak if you use cropping */
-}
-
 /* Embossed subhead */
 .subhead{
   display:inline-block;
