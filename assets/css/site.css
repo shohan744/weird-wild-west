@@ -97,7 +97,7 @@ a:hover{ text-decoration:underline; }
 .hero-banner-crop{
   width: min(900px, 100%);
   margin: 0 auto 0;   /* no bottom margin — grid sits directly below */
-  height: 150px;      /* adjust to taste to control how much of the image shows */
+  height: 100px;      /* adjust to taste to control how much of the image shows */
   overflow: hidden;
 }
 
