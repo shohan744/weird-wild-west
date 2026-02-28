@@ -233,3 +233,21 @@ body.home .home-grid{
 body.home .home-grid + .home-grid{
   margin-top: 14px;
 }
+/* ===== Homepage: pull subheaders + icons upward ===== */
+body.home .frame{
+  padding-top: 10px;     /* keep some breathing room */
+}
+
+/* Remove any default spacing under the header */
+body.home .hero-banner-wrap{ margin: 0; }
+body.home .hero-banner{ margin: 0 auto; }
+
+/* Pull the FIRST home-grid (the two subheader banners) upward */
+body.home .hero-banner-wrap + .home-grid{
+  margin-top: -80px;     /* <-- tweak THIS number */
+}
+
+/* Keep the space between subheader banners and the circles */
+body.home .home-grid + .home-grid{
+  margin-top: 12px;
+}
