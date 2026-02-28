@@ -11,10 +11,15 @@ title: Home
   >
 </div>
 
-  <div class="home-grid">
-    <a class="home-card" href="{{ '/story/' | relative_url }}">story so far</a>
-    <a class="home-card" href="{{ '/glossary/' | relative_url }}">the glossary</a>
-  </div>
+<div class="home-grid">
+  <a class="home-tile" href="{{ '/story/' | relative_url }}">
+    <img src="{{ '/assets/img/ssf.png' | relative_url }}" alt="The Story So Far">
+  </a>
+
+  <a class="home-tile" href="{{ '/glossary/' | relative_url }}">
+    <img src="{{ '/assets/img/glossary-header.png' | relative_url }}" alt="The Glossary">
+  </a>
+</div>
 
   <div class="home-grid">
     <div class="circle">art: quill + leatherbound journal</div>
