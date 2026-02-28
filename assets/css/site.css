@@ -233,3 +233,11 @@ details.panel > summary::-webkit-details-marker{ display:none; }
 .section-header.wide img {
   width: min(720px, 100%);
 }
+
+.panel-body p {
+  margin: 0 0 1em;
+}
+
+.panel-body p:last-child {
+  margin-bottom: 0;
+}
