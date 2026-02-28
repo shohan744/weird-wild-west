@@ -224,3 +224,6 @@ details.panel > summary::-webkit-details-marker{ display:none; }
   padding: 14px;
   opacity:.8;
 }
+
+.hero-banner-wrap{ overflow: visible !important; }
+.hero-banner{ visibility: visible !important; }
