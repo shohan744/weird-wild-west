@@ -24,7 +24,7 @@ title: Story So Far
       <p>While Ezit and Elliot cleaned up the southern flank, the others moved north to intercept the fledgling sorcerer. Before he could call upon the power of his magical blood, the scavenger wargs struck, tearing deep, vicious wounds into his arms. Lifeblood spilled into the sand as the creatures crept closer, jaws snapping for the killing blow.</p>
       <p>Without a moment to spare, Aisha materialized into the fray, realizing the party was likely doomed without her intervention. She hauled Aezos to safety, taking a savage bite herself in the process, but managed to pull the fallen mage clear. Gia repaid the wargs' aggression tenfold—bringing her axe down in a mighty arc and severing the head of one of the murderous mutts.</p>
       <p>The storm still rages, and the battle is not yet over. The remaining animals are desperate and starving, willing to fight to the end with terrifying ferocity.</p>
-      <p>Will the party escape the Red Wind and the scavenger wargs?<br>Will Aezos receive healing before his wounds claim his life?<br>And is the caravan—and Bartholomew—everything it seems?</p>
+      <p class="session-questions">Will the party escape the Red Wind and the scavenger wargs?<br>Will Aezos receive healing before his wounds claim his life?<br>And is the caravan—and Bartholomew—everything it seems?</p>
     </div>
   </details>
 
@@ -44,7 +44,7 @@ title: Story So Far
       <p>The final chamber is a cramped, windowless room, where a large sarcophagus is being interred. The coffin is heavy stone, and surrounded by desert yarrow. As Elliot goes to prepare his trap-disarming tools, Finkle rips the lid off the sarcophagus. It is empty, save for a magical weapon and a few trinkets. Elliot's instincts are right, however, and the violent entry causes another trap to trigger—a deadly one. Sand pours through cracks in the walls and holes in the ceiling. The entire temple begins sinking, being reclaimed by the Dust Plains.</p>
       <p>Aisha moves first, sensing opportunity—she swipes the loot and teleports away. Gia and Ezit grab what yarrow they can carry (and their tiny dwarf companion) and rush to follow. Tenzoe tries to slow or stop the collapse with his newfound abilities, but it's simply too much. He might've perished in that sandtrap if Ezit hadn't returned to help pull him out of a sandpit. The party manages to escape as the temple sinks into the dunes behind them.</p>
       <p>Divvying up the loot and almost getting cursed for life, the party heads back relatively unscathed, with plenty of herbs for Aezos. Vesuya is just on the horizon—and with it, a brand-new brace of questions.</p>
-      <p>What does Beatrice want with the sleeper beneath the dunes?<br>Will Ezit suffer the consequences of her past?<br>What will your party spend their pay on?</p>
+      <p class="session-questions">What does Beatrice want with the sleeper beneath the dunes?<br>Will Ezit suffer the consequences of her past?<br>What will your party spend their pay on?</p>
     </div>
   </details>
 
@@ -73,54 +73,118 @@ title: Story So Far
   <details class="panel">
     <summary>Into the Pit</summary>
     <div class="panel-body">
-  <p>After a long day of stealing from people, conning shopkeepers, singing country music, and killing necromancers, it was time for a moment of calm. The Candleworn Saloon was a bustling place in the evenings, full of clinking glasses and boisterous conversation, but your party managed to find a quiet table in the back.</p>
+      <p>After a long day of stealing from people, conning shopkeepers, singing country music, and killing necromancers, it was time for a moment of calm. The Candleworn Saloon was a bustling place in the evenings, full of clinking glasses and boisterous conversation, but your party managed to find a quiet table in the back.</p>
+      <p>Elliot wanted to examine the mysterious medallion he'd palmed from the general store, and the rest of the group wanted to talk about Andre and the dark dealings within the silver mine. The stolen necklace was an ominous piece of jewelry: a simple chain with a jet-black circle of obsidian at its center. The magically inclined members of your party knew it was bad news—but as a group, you were no strangers to bad decisions.</p>
+      <p>Several of you tried it on, only to be rejected by an ethereal force that deemed each wearer "not worthy." Whatever the enchantment was waiting for, it wasn't you. With that unsettling discovery set aside, your attention turned to Caldera's mining operation and preparations for the night ahead.</p>
+      <p>The bar was, as always, a powerful source of information. Few people are more willing to talk than disgruntled employees after a couple of strong drinks. Tenzoe approached an older, heavily scarred half-orc who seemed to be the de facto leader of the hard-drinking mine workers. The man was gruff and tried to brush him off, but a lifetime of working crowds and charming comrades had taught Andre how to handle working-class roughnecks.</p>
+      <p>All it took was some genuine interest, a charming smile (and maybe a little magical mental manipulation). It wasn't long before the burly mine boss was talking about the dangers of "Shaft 7," where workers went in… and never went out. He told the party about the vicious foreman, crossbow-toting security, and caustic chemical runoff that ran along the tunnels. Beneath the tough exterior, it was obvious—he was terrified of whatever was happening in the bowels of the dig.</p>
+      <p>Elliot and Andre wanted more than rumors. They wanted information kept behind closed doors. Plus, Andre was quite sure yet if he could trust the Harengon in the party quite yet. They had just kidnapped him, it would be good to do a little detective work. The Caldera Mining Company had an office in town, and it was likely empty at this hour. For experienced prowlers, it was child's play: shimmy up the back of the building, carefully disarm the roof trapdoor, and rifle through the documents in the manager's office.</p>
+      <p>They were hoping for maps and security layouts, but the building was used for clerical and administrative work, not excavation planning. They didn't leave empty-handed, though—and what they found was disturbing. It was a record of people sent to Shaft 7, with explicit instructions to send more as quickly as possible. Coded, cagey language hinted at something found in the mines—something more dangerous and valuable than ore. Something ancient and powerful, something that could alter the future of the Dust Plains itself.</p>
+      <p>Tenzoe and Aezos had a plan of their own—one considerably less subtle. While the rest of the group infiltrated the mines disguised as workers, they would "distract" the guards. Most of the party didn't realize just how many bodies that distraction would leave behind. With Aezos in position, hiding among the crates hauled up to the entrance, the warlock gathered a trio of foremen around him.</p>
+      <p>With a manic shout, Tenzoe unleashed his new arcane powers. Tentacles of necrotic energy burst from the ground, crushing limbs and slashing flesh. The Warren Kings posted as guards tried to intervene, only to be met with scorching rays of fire bursting from Aezos's hand. It was a wild scene of magic and melee that sent ordinary people scurrying for safety.</p>
+      <p>One guard tried to escape—mounting a horse to ride for reinforcements. An eldritch blast tore his head from his shoulders before he made it a dozen paces. The yawning entrance of the mine fell still, with only the sorcerer and warlock left standing in a field of corpses. In retrospect, this made sneaking in somewhat pointless. Still, the destructive pair followed their comrades into the cavernous tunnels.</p>
+      <p>The deeper the party went, the more uneasy you became. The walls seemed uncomfortably alive, shifting imperceptibly as you walked down the dimly lit mineshaft. Troughs of caustic chemicals left an oily residue along the stone—it was like walking down the esophagus of a slumbering being of impossible size. At last, you reached the dreaded Seventh Shaft, where a supervisor and a pair of haregon gangsters stood guard.</p>
+      <p>Ezit thought fast—she was haregon, and for all they knew, she was just another goon delivering doomed souls to the belly of the beast. She told the checkpoint these were the troublemakers responsible for all the commotion topside: captured and slated to be disposed of. With a slow nod, the group was let through.</p>
+      <p>Soon, the rough walls of the cave gave way to polished stone. This was no longer a mine—it was a temple, buried in the rock. There were impediments, wards meant to turn away nonbelievers, but Ezit proved she was quick-witted as well as quick on her feet. The dark staircase and the offering urns were quickly puzzled out.</p>
+      <p>Each of you made an offering of words to enter the central chamber: mothers, homes, loves, your past.</p>
+      <p>A ritual was underway in the main antechamber. Robed, hooded figures chanted between the sandstone pillars. Aisha moved to conceal herself. Aezos tried to creep into one of the eastern rooms, both searching for an advantage. But Andre had other ideas. He had been kidnapped, beaten—almost sold for parts because of these foul magics. Something in his angelic blood refused to accept the insult. He strode straight up to the figure leading the unholy chorus, ready to bring his fist down on the root of this evil.</p>
+      <p>Before a single blow could land, the man drew a curved dagger.</p>
+      <p>The blade cut deeply and fatally, but it wasn't aimed at Andre. The cultist slashed his own throat, pouring his lifeblood onto the cold, unforgiving stone. All around you, the other cultists followed suit, slicking the floor with gore that ran toward the center of the ritual circle. With a massive shudder, their sacrifice was accepted. A crimson portal yawned open on the floor, and a massive, clawed hand reached out.</p>
+      <p>In a cloud of brimstone-laced smoke, the torso of a gargantuan demon emerged from the hellish gateway. It slammed down a massive fist, sending crimson waves of flame surging toward the party.</p>
+      <p>But you weren't defenseless. You fought tooth and claw—quite literally, as Andre used druidic shapeshifting to take the form of a cave bear and met the beast head-on. Aezos quickly learned his fire was useless and correctly deduced you'd need cold to bring it down. He and Aisha hurled chromatic orbs and knives of ice into the demon's flesh while Tenzoe dodged its deadly bite.</p>
+      <p>And then there was Elliot—unseen and unheard—who landed the final blow. While the monstrosity was distracted, he climbed up to its fearsome visage and drove a dagger straight into its exposed eye. With a terrifying roar, it recoiled and retreated back to Infernus, weakened but far from dead.</p>
+      <p class="session-questions">What lies in the shadowed corners of the buried temple?<br>Will the demon—or the Caldera Mining Company—seek revenge?<br>What happened to Gia and Finkle?</p>
+    </div>
+  </details>
 
-  <p>Elliot wanted to examine the mysterious medallion he’d palmed from the general store, and the rest of the group wanted to talk about Andre and the dark dealings within the silver mine. The stolen necklace was an ominous piece of jewelry: a simple chain with a jet-black circle of obsidian at its center. The magically inclined members of your party knew it was bad news—but as a group, you were no strangers to bad decisions.</p>
+  <details class="panel">
+    <summary>The Craving Wall</summary>
+    <div class="panel-body">
+      <p>The ritual chamber still trembled. The sulfurous smell of the demonic portal lingered in the air, and the ground was still slick with blood. For a moment, the party let out a collective breath. They had survived, against the odds.</p>
+      <p>Now they needed to investigate what secrets could be pried from the temple's rocky depths.</p>
+      <p>Gia and Finkle, meanwhile, were dealing with problems of their own. It was supposed to be an easy job—get the money that was promised, possibly discuss future work opportunities, then get back to the saloon and get drunk. But the ranch was quiet, unnaturally so. The only thing that greeted them as they approached the longhouse was a door left open, swinging gently in the wind.</p>
+      <p>The pair pushed inside, through the dimly lit dining area. A dying hearth was the only illumination, casting long shadows across plates of half-eaten food. Gia rekindled a lantern and discovered a grisly sight: a finely dressed and well-groomed dwarf slumped in the far corner of the room, his throat slit from ear to ear.</p>
+      <p>There was no sign of struggle, no upturned furniture or broken plates. This was a cold, calculated murder, committed by someone trusted enough to get close.</p>
+      <p>Before they even had time to process the scene, there was commotion outside. The thunderous sound of hooves pounding dirt signaled the arrival of local law enforcement. In a panic, the two took separate approaches: Finkle, filled with confidence by his enchanted headband, went to the door to talk. Gia, on the other hand, opted to hide in the shadows.</p>
+      <p>She tried to use her Crocian affinity to water, pouring out her canteen to create a puddle. Unfortunately, a puddle is a poor hiding spot for a giant lizard woman.</p>
+      <p>The deputy was ready to throw the odd couple in jail and hang them at dawn—after all, he'd just learned that the people they'd traveled in with had killed half a dozen people at the silver mine. But against the odds, the tiny, hairy barbarian managed to convince him to slow down and allow them a chance to prove their innocence.</p>
+      <p>A pair of footprints, left in the blood and dust, led away from the corpse. They had been made by a pair of men's work boots. Normally, this would have been a fairly unhelpful clue, but both of the accused had rather distinctive builds. These were not the tiny, stubby trotters of Finkle or the massive, clawed prints of Gia.</p>
+      <p>The wound was also a clean, methodical cut, likely made with a dagger honed to a razor's edge. Finkle made a good case that neither of them was likely to be so subtle, and the deputy—who had just watched a giant lizard try to hide in a couple of centimeters of water—had to agree. This simply didn't seem like the work of a pair of barbarian weirdos.</p>
+      <p>The two explained that they were there to meet Bartholomew. They weren't the cause of this violence, for once.</p>
+      <p>While Gia and Finkle were off trying to stay out of jail, the rest of the party was working to unbind the magical seals placed in the eastern chamber of the sunken temple. Chains crisscrossed in a ritual pattern, each linked to a quadriptych. Each carving depicted a different environment within the Dust Plains: the scorching heat, the wind in the sequoia, the drizzle of rain on the dunes, and the creeping midnight frost on the rocks.</p>
+      <p>Andri moved to destroy the chains with a bolt of fire, and those attached to the portrait of summer heated and became brittle. This was the clue the party needed. Aezos then conjured a gust of magical wind to loosen the bindings, and Aisha drew upon the power of the elements, melding water and heat to create a tiny rain cloud to imitate spring.</p>
+      <p>The chains rusted and weakened. A final sphere of sheer cold, representing winter, allowed the last of the enchanted iron to crumble at a touch. They only needed to shatter the diminished metal, and the ritual would be undone.</p>
+      <p>There was a moment of doubt, a second where the very stone walls seemed to hold their breath. Then came an immense crash as Tenzoe's sword came down, blasting apart the chains.</p>
+      <p>The earth shifted deep below, like an enormous presence turning within the mantle. Sand and pebbles rained ominously from the ceiling. Like water down a drain, or sand through an hourglass, the mystical energies of the room drained away. Tenzoe felt his pact token grow burning hot under his armor.</p>
+      <p>"Excellent work, my little mortal. Now inscribe my mark, and I will reward you..."</p>
+      <p>A glyph burned into the page, a demonic brand inscrutable to those outside Avernus. Tenzoe complied, and a fiery apparition burst forth from the mark. The flames flickered and took the shape of Beatrice. She applauded everyone on their performance and even gave Aisha a long-sought boon in the form of a tiny skeletal dog with three heads.</p>
+      <p>Deals with a demon are rarely straightforward, however. Instead of a hellhound to devour souls, it was more of a hell-puppy, no bigger than a guinea pig. The terms were clear—the more Sleep stirred, the larger and more powerful her canine would become.</p>
+      <p>As one last favor, Beatrice summoned the missing barbarians with a flick of her wrist, pulling them straight out of the sheriff's office and no doubt confusing the hell out of the man interviewing them.</p>
+      <p>There was only one area left to search: the western chamber.</p>
+      <p>Aezos was the first inside, and what he saw was breathtaking. A mural, a map, a masterpiece was etched into every inch of the stone walls. The skeletal remains of the carver lay at the base of the far wall, tools still curled in bony fingers. The lines formed everything: hieroglyphs, songs, prayers, depictions of lore and history—and it all glowed faintly with the crackling light of a dying ember.</p>
+      <p>Aezos couldn't take his eyes off it. It beckoned him to touch it and receive understanding.</p>
+      <p>As the rest of the group entered, he pressed his palm against the stonework. The carvings shifted and formed a map. Two locations glowed like red stars embedded in the landscape of the Dust Plains. Then, in a blinding flash, each of them received a vision:</p>
 
-  <p>Several of you tried it on, only to be rejected by an ethereal force that deemed each wearer “not worthy.” Whatever the enchantment was waiting for, it wasn’t you. With that unsettling discovery set aside, your attention turned to Caldera’s mining operation and preparations for the night ahead.</p>
+   <div class="visions">
+        <div class="vision">
+          <p><strong>Tenzoe</strong></p>
+          <p>You know this smell. Burnt coffee and motor oil and the particular staleness of air conditioning that's been running too long. The fluorescent hum of the lights. The scratch of lottery tickets on the counter. You're back. You're actually back. And behind the counter, half-turned away, folding a paper bag, is someone you recognize. They haven't heard you come in yet. The bell above the door is still ringing.</p>
+          <p class="vision-hook">A voice, from nowhere and everywhere: "You only have to say yes."</p>
+        </div>
+        <div class="vision">
+          <p><strong>Aezos</strong></p>
+          <p>It's evening, and the village is loud with it—children, cooking fires, someone's dog barking at nothing. Every window is lit. Every wall is standing. You know this street. You have walked it ten thousand times in nightmares, but never like this—never whole, never warm. A woman leans out of a doorway and calls a name. Not yours. A child's name. Someone who lived here.</p>
+          <p>Someone who would still be living here.</p>
+          <p class="vision-hook">The voice comes quietly, almost gently: "This is what was. I can show you what could still be."</p>
+        </div>
+        <div class="vision">
+          <p><strong>Ezit</strong></p>
+          <p>The town square is full, and the crowd is calm—not the brittle, fearful calm of people waiting for something to go wrong, but the deep, settled calm of people who feel safe. There are haregon faces you know, older now, going about their lives without looking over their shoulders. At the center of the square, where your family's seal used to hang, there is something new. Something chosen by the people themselves.</p>
+          <p class="vision-hook">The voice doesn't promise you power. It just asks: "Don't they deserve better than what they have?"</p>
+        </div>
+        <div class="vision">
+          <p><strong>Aisha</strong></p>
+          <p>Nothing dramatic. No grand reunion, no sweeping landscape. Just a kitchen, early morning, the kind of light that only exists before the rest of the world wakes up. The sound of someone moving around, unhurried. A voice—familiar in a way that lives in your body rather than your memory—calls your name from the next room. Casual. Like you were there yesterday. Like you never left.</p>
+          <p class="vision-hook">The voice of the Sleeper doesn't speak. It just lets the sound of your name sit there in the air.</p>
+        </div>
+        <div class="vision">
+          <p><strong>Andre</strong></p>
+          <p>The stage is bigger than any you've played. The crowd is bigger too—but that's not what gets you. What gets you is the silence just before. That specific, electric silence of a thousand people leaning forward at once, waiting for you specifically. Wings spread, every eye on you, the whole world contracted to this single moment of anticipation.</p>
+          <p class="vision-hook">Then the voice, warm and vast: "You were never meant to be a footnote in someone else's story."</p>
+        </div>
+        <div class="vision">
+          <p><strong>Elliot</strong></p>
+          <p>A room you've been in before—you don't remember whose. Something small is missing from the shelf, the desk, the nightstand. You know what it is without looking. You took it. And the person who lived here is standing in the middle of the room, turning in a slow circle, their face cycling through confusion and then something worse—that creeping doubt, that fracture in their certainty about the world. The thing they can't explain.</p>
+          <p>You feel the familiar satisfaction of it. Clean and complete.</p>
+          <p class="vision-hook">The Sleeper doesn't offer Elliot healing or redemption. It offers him more. The voice says only: "Imagine doing this to a whole world."</p>
+        </div>
+        <div class="vision">
+          <p><strong>Finkle</strong></p>
+          <p>You are tall.</p>
+          <p>Not just tall—enormous. Broad. You have to turn sideways to fit through the door of the tavern, and when you sit down the chair doesn't swallow you whole, and when you speak people actually stop and listen, and the words that come out make sense, they make complete sense, and someone across the table nods slowly and says, "Huh, I never thought of it that way," and you feel—</p>
+          <p class="vision-hook">The vision ends. The voice says nothing. It didn't need to.</p>
+        </div>
+        <div class="vision">
+          <p><strong>Gia</strong></p>
+          <p>The crowd is on their feet before the last note dies. Not polite applause—the real thing, the kind that starts in the chest before it reaches the hands. Someone near the back lets out a long, low whistle. You can't see faces clearly, just the blur of them, all turned toward you. The stage lights are warm on your scales.</p>
+          <p class="vision-hook">A voice beneath the roar of the crowd, intimate as a whisper: "You've been carrying an axe when you were born to carry a song. I can give you a world that knows your name."</p>
+        </div>
+      </div>
 
-  <p>The bar was, as always, a powerful source of information. Few people are more willing to talk than disgruntled employees after a couple of strong drinks. Tenzoe approached an older, heavily scarred half-orc who seemed to be the de facto leader of the hard-drinking mine workers. The man was gruff and tried to brush him off, but a lifetime of working crowds and charming comrades had taught Andre how to handle working-class roughnecks.</p>
-
-  <p>All it took was some genuine interest, a charming smile (and maybe a little magical mental manipulation). It wasn’t long before the burly mine boss was talking about the dangers of “Shaft 7,” where workers went in… and never went out. He told the party about the vicious foreman, crossbow-toting security, and caustic chemical runoff that ran along the tunnels. Beneath the tough exterior, it was obvious—he was terrified of whatever was happening in the bowels of the dig.</p>
-
-  <p>Elliot and Andre wanted more than rumors. They wanted information kept behind closed doors. Plus, Andre was quite sure yet if he could trust the Harengon in the party quite yet. They had just kidnapped him, it would be good to do a little detective work. The Caldera Mining Company had an office in town, and it was likely empty at this hour. For experienced prowlers, it was child’s play: shimmy up the back of the building, carefully disarm the roof trapdoor, and rifle through the documents in the manager’s office.</p>
-
-  <p>They were hoping for maps and security layouts, but the building was used for clerical and administrative work, not excavation planning. They didn’t leave empty-handed, though—and what they found was disturbing. It was a record of people sent to Shaft 7, with explicit instructions to send more as quickly as possible. Coded, cagey language hinted at something found in the mines—something more dangerous and valuable than ore. Something ancient and powerful, something that could alter the future of the Dust Plains itself.</p>
-
-  <p>Tenzoe and Aezos had a plan of their own—one considerably less subtle. While the rest of the group infiltrated the mines disguised as workers, they would “distract” the guards. Most of the party didn’t realize just how many bodies that distraction would leave behind. With Aezos in position, hiding among the crates hauled up to the entrance, the warlock gathered a trio of foremen around him.</p>
-
-  <p>With a manic shout, Tenzoe unleashed his new arcane powers. Tentacles of necrotic energy burst from the ground, crushing limbs and slashing flesh. The Warren Kings posted as guards tried to intervene, only to be met with scorching rays of fire bursting from Aezos’s hand. It was a wild scene of magic and melee that sent ordinary people scurrying for safety.</p>
-
-  <p>One guard tried to escape—mounting a horse to ride for reinforcements. An eldritch blast tore his head from his shoulders before he made it a dozen paces. The yawning entrance of the mine fell still, with only the sorcerer and warlock left standing in a field of corpses. In retrospect, this made sneaking in somewhat pointless. Still, the destructive pair followed their comrades into the cavernous tunnels.</p>
-
-  <p>The deeper the party went, the more uneasy you became. The walls seemed uncomfortably alive, shifting imperceptibly as you walked down the dimly lit mineshaft. Troughs of caustic chemicals left an oily residue along the stone—it was like walking down the esophagus of a slumbering being of impossible size. At last, you reached the dreaded Seventh Shaft, where a supervisor and a pair of haregon gangsters stood guard.</p>
-
-  <p>Ezit thought fast—she was haregon, and for all they knew, she was just another goon delivering doomed souls to the belly of the beast. She told the checkpoint these were the troublemakers responsible for all the commotion topside: captured and slated to be disposed of. With a slow nod, the group was let through.</p>
-
-  <p>Soon, the rough walls of the cave gave way to polished stone. This was no longer a mine—it was a temple, buried in the rock. There were impediments, wards meant to turn away nonbelievers, but Ezit proved she was quick-witted as well as quick on her feet. The dark staircase and the offering urns were quickly puzzled out.</p>
-
-  <p>Each of you made an offering of words to enter the central chamber: mothers, homes, loves, your past.</p>
-
-  <p>A ritual was underway in the main antechamber. Robed, hooded figures chanted between the sandstone pillars. Aisha moved to conceal herself. Aezos tried to creep into one of the eastern rooms, both searching for an advantage. But Andre had other ideas. He had been kidnapped, beaten—almost sold for parts because of these foul magics. Something in his angelic blood refused to accept the insult. He strode straight up to the figure leading the unholy chorus, ready to bring his fist down on the root of this evil.</p>
-
-  <p>Before a single blow could land, the man drew a curved dagger.</p>
-
-  <p>The blade cut deeply and fatally, but it wasn’t aimed at Andre. The cultist slashed his own throat, pouring his lifeblood onto the cold, unforgiving stone. All around you, the other cultists followed suit, slicking the floor with gore that ran toward the center of the ritual circle. With a massive shudder, their sacrifice was accepted. A crimson portal yawned open on the floor, and a massive, clawed hand reached out.</p>
-
-  <p>In a cloud of brimstone-laced smoke, the torso of a gargantuan demon emerged from the hellish gateway. It slammed down a massive fist, sending crimson waves of flame surging toward the party.</p>
-
-  <p>But you weren’t defenseless. You fought tooth and claw—quite literally, as Andre used druidic shapeshifting to take the form of a cave bear and met the beast head-on. Aezos quickly learned his fire was useless and correctly deduced you’d need cold to bring it down. He and Aisha hurled chromatic orbs and knives of ice into the demon’s flesh while Tenzoe dodged its deadly bite.</p>
-
-  <p>And then there was Elliot—unseen and unheard—who landed the final blow. While the monstrosity was distracted, he climbed up to its fearsome visage and drove a dagger straight into its exposed eye. With a terrifying roar, it recoiled and retreated back to Infernus, weakened but far from dead.</p>
-
-  <p>Now the party had only to uncover the mine’s secrets—and escape with them alive.</p>
-
-  <p>
-    What lies in the shadowed corners of the buried temple?<br>
-    Will the demon—or the Caldera Mining Company—seek revenge?<br>
-    What happened to Gia and Finkle?
-  </p>
-</div>
+  <p>Then the light died, and the room shook again—violently this time. This was the last straw. The seismic activity had gone from a low rumble to a building roar. Instead of pebbles and grit, chunks of stone and clumps of clay began falling from the ceiling.</p>
+  <p>Everyone exchanged glances and shared a singular thought: run.</p>
+  <p>The walls were closing in around them. Ancient pillars crumbled and cracked. Carved tiles collapsed into the sand. The party sprinted through the shaking halls and up the stairs back into the mine proper. The caustic chemicals used in extracting ore had formed acidic streams, creating a death trap that threatened to burn them as they ran.</p>
+  <p>The group barely escaped with their lives, only to discover an even greater threat waiting at the mine entrance.</p>
+  <p>The deputy was waiting, flanked by Warren Kings and, most worryingly, a Wizard of Thay. The mine was destroyed, the guards were dead, and the leaders were buried under a thousand tons of debris. The Caldera Mining Company wanted vengeance.</p>
+  <p>But there was someone with them who wanted to end things peacefully: Ezit's Uncle Remus. Remus came from the kinder side of the haregon's family and pleaded with her to just give up, go with him, and return home. He had been asked by her parents to try to bring her back without bloodshed, but Ezit stood firm. They hadn't come this far just to turn tail and return to life in a gilded cage.</p>
+  <p>Elliot, sensing that negotiations were quickly breaking down, let fly a dagger, thrown straight and true into the corrupt deputy's eye.</p>
+  <p>The battle was an intense clash of fire and axes. Gia and Finkle took the fight to the front line while Aezos and Aisha lobbed fire and ice into the back line. The Wizard, however, didn't intervene. She merely watched with cold, disinterested amusement. Her body language conveyed that the bloodshed and burning flesh were only a mild distraction, and the party wisely decided to leave well enough alone. If the Wizard of Thay had wanted them dead, surely they would have died the instant they stepped out into the light.</p>
+  <p>Ezit managed to convince the last of the guards to run, and the party was finally left alone with the abominable magic-user. Andre stepped forward and paid her proper respect, using his natural charm as a showman, and she took a liking to him.</p>
+  <p>With a being like this, however, even being appreciated is dangerous.</p>
+  <p>As the two shook hands, a dark curse branded Andre's arm, crawling up toward his wings. They changed, mutating from angelic white to dark, twisted black. The Wizard left them with a warning: the party was playing with forces they did not understand, and if their paths crossed again, it would not be a conversation—it would be an execution.</p>
+  <p>The guards who had fled returned, grateful to be spared, and loaded the party up with their mounts and a few days of supplies. After the trouble they had caused for the town, they needed to leave or risk being driven out by a mob.</p>
+  <p>The party set out into the wilds, their only lead the two points marked for them by the carving wall.</p>
+    </div>
   </details>
 
 </div>
