@@ -241,3 +241,43 @@ details.panel > summary::-webkit-details-marker{ display:none; }
 .panel-body p:last-child {
   margin-bottom: 0;
 }
+
+/* ── Session closing questions ── */
+.session-questions {
+  font-style: italic;
+  opacity: 0.85;
+  margin-top: 1.5em;
+  border-left: 4px solid var(--ink);
+  padding-left: 12px;
+}
+
+/* ── Character visions block ── */
+.visions {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin: 1.5em 0;
+  border: 4px solid var(--ink);
+}
+
+.vision {
+  padding: 14px 16px;
+  border-bottom: 4px solid var(--ink);
+  background: rgba(255,255,255,.15);
+}
+
+.vision:last-child {
+  border-bottom: none;
+}
+
+.vision strong {
+  font-size: 17px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+.vision-hook {
+  font-style: italic;
+  opacity: 0.9;
+  margin-bottom: 0;
+}
