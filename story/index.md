@@ -98,7 +98,7 @@ title: Story So Far
   </details>
 
   <details class="panel">
-    <summary>The Craving Wall</summary>
+    <summary>message in a botlle</summary>
     <div class="panel-body">
       <p>The ritual chamber still trembled. The sulfurous smell of the demonic portal lingered in the air, and the ground was still slick with blood. For a moment, the party let out a collective breath. They had survived, against the odds.</p>
       <p>Now they needed to investigate what secrets could be pried from the temple's rocky depths.</p>
